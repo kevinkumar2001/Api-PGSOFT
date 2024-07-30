@@ -105,7 +105,7 @@ exports.default = {
                         res.send({
                             status: 1,
                             msg: "SUCCESS",
-                            launch_url: `https://brabobet.top/${codegame}/index.html?operator_token=Zm9saWFiZXQ=&btt=1&t=${getnewuser[0].token}&or=brabobet.top&api=brabobet.top`,
+                            launch_url: `https://api-pgsoft-l9la.onrender.com/${codegame}/index.html?operator_token=Zm9saWFiZXQ=&btt=1&t=${getnewuser[0].token}&or=api-pgsoft-l9la.onrender.com&api=api-pgsoft-l9la.onrender.com`,
                             user_code: getnewuser[0].username,
                             user_balance: getnewuser[0].saldo,
                             user_created: true,
@@ -125,7 +125,7 @@ exports.default = {
                     res.send({
                         status: 1,
                         msg: "SUCCESS",
-                        launch_url: `https://brabobet.top/${codegame}/index.html?operator_token=Zm9saWFiZXQ=&btt=1&t=${user[0].token}&or=brabobet.top&api=brabobet.top`,
+                        launch_url: `https://api-pgsoft-l9la.onrender.com/${codegame}/index.html?operator_token=Zm9saWFiZXQ=&btt=1&t=${user[0].token}&or=api-pgsoft-l9la.onrender.com&api=api-pgsoft-l9la.onrender.com`,
                         user_code: user[0].username,
                         user_balance: user[0].saldo,
                         user_created: false,
